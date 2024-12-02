@@ -6,7 +6,7 @@ export const MovieCard = ({movie}) => {
   const image = (poster_path ? `https://image.tmdb.org/t/p/w500${poster_path}` : Backup);
 
   return (
-    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-3">
+    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-3 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110 duration-300">
         <Link to={`/movie/${id}`}>
             <img className="rounded-t-lg" src={image} alt="poster" />
         </Link>

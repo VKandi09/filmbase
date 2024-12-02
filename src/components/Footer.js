@@ -50,7 +50,7 @@ export const Footer = () => {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <Link to="/" className="hover:underline">Cinemate</Link>. All Rights Reserved.
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <Link to="/" className="hover:underline">FilmBase</Link>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:items-center sm:mt-0 justify-center items-center">
             <Link to="#" target="_blank" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">

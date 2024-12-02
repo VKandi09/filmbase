@@ -14,7 +14,7 @@ export const Search = ({apiPath}) => {
   useTitle(`Search result for ${queryTerm}`);
 
   useEffect(() => {
-    document.title = `Search result for ${queryTerm} / Cinemate`
+    document.title = `Search result for ${queryTerm} / FilmBase`
   },[queryTerm]);
 
 
